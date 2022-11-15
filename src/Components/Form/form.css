@@ -1,0 +1,25 @@
+.Form__section {
+    margin: auto;
+    justify-content: center;
+    margin-top: 15rem;
+}
+
+
+.word__section {
+    margin: auto;
+    margin-top: 2.5rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.word__section li, ul {
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.word__container {
+    text-align: center;
+    justify-content: center;
+    height: 30px;
+}
