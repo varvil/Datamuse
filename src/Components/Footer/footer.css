@@ -1,12 +1,15 @@
+
 .footer__container {
+
     margin: auto;
-    justify-content: center;
-    display: flex;
     margin-top: 5rem;
-    border-radius: 20px;
+    width: 100%;
+    color: white;
+    text-align: center;
 }
 
 .footer__title {
-    font-size: 12px;
+    font-size: small;
+    font-weight: lighter;
 }
 

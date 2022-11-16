@@ -34,9 +34,9 @@ const Form = () => {
         {synonyms.map((synonym) => (
           <div className="word__container" key={synonym.word}>
             <ul>
-            <li>
-              {synonym.word}
-            </li>
+              <li>
+                {synonym.word}
+              </li>
             </ul>
           </div>
         ))}
