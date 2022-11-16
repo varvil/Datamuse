@@ -1,5 +1,6 @@
 import React from 'react'
 import './footer.css';
+import { UilGithub } from '@iconscout/react-unicons'
 
 const Footer = () => {
 
