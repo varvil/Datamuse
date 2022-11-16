@@ -19,14 +19,13 @@ const Form = () => {
   return (
 
     
-    <div className="Form__section">
-
+    <div className="form__section">
         <form onSubmit={handleFetch}>
-          <label htmlFor='enter__word'> Your word </label>
           <input 
             value={word}
             onChange={(e) => setWord(e.target.value)}
             id='enter__word'
+            className='form__input'
           ></input>
           <button>Search</button>
         </form>

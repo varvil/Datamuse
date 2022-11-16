@@ -1,0 +1,12 @@
+.footer__container {
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    margin-top: 5rem;
+    border-radius: 20px;
+}
+
+.footer__title {
+    font-size: 12px;
+}
+

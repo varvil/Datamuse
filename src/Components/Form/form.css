@@ -1,13 +1,49 @@
-.Form__section {
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+body {
+    background: #333333;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title {
+    color:#FFFF;
+    margin-top: 10rem;
+}
+
+.form__section {
     margin: auto;
     justify-content: center;
-    margin-top: 15rem;
+    text-align: center;
+    margin-top: 2rem;
 }
+
+.form__input {
+    height: 20px;
+}
+
+.form__section button {
+    margin: auto;
+    display: block;
+    margin-top: 15px;
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    border-radius: 10px;
+    border-color: #0000;
+    background: rgba(255, 255, 255, 0.1);
+    transition: 0.5s;
+}
+
+.form__section button:hover {
+    transition: 0.5s;
+    color: #111;
+    background: #f1f1f1;
+  }
 
 
 .word__section {
-    margin: auto;
-    margin-top: 2.5rem;
+
+    margin-top: 1.5rem;
     text-align: center;
     justify-content: center;
 }
@@ -15,11 +51,12 @@
 .word__section li, ul {
     text-decoration: none;
     list-style: none;
+    color: #FFFF;
 
 }
 
 .word__container {
-    text-align: center;
-    justify-content: center;
+    margin: auto;
+    margin-right: 40px;
     height: 30px;
 }
