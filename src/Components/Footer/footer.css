@@ -1,10 +1,15 @@
 
 .footer__container {
-
     margin: auto;
-    margin-top: 5rem;
+    margin-top: 4rem;
     width: 100%;
     color: white;
+    text-align: center;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
@@ -12,4 +17,18 @@
     font-size: small;
     font-weight: lighter;
 }
+
+.overline {
+    margin: auto;
+    display: block;
+    border-top: 1px solid #FFFF;
+}
+
+.social__icon {
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+    margin-left: 1.5rem;
+}
+
 

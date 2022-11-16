@@ -7,10 +7,23 @@ const Footer = () => {
   return (
 
     <div className='footer__container'>
+
+      <div>
+        <span className="overline"></span>
+      </div>
+
+      <div className="footer__content">
+
       <h2 className="footer__title">
           © Ville Varjus
       </h2>
-      <i class="uil uil-github"></i>
+
+      <a href="https://github.com/varvil" className="social__icon">
+        <i class="uil uil-github"></i>
+      </a>
+      
+      </div>
+
     </div>
   )
 }
